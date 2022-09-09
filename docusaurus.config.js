@@ -113,7 +113,7 @@ const config = {
               },
 			  {
                 label: 'Privacy Policy',
-                href: 'https://towersgame.net/privacypolicy',
+                href: 'https://towersgame.net/PrivacyPolicy',
               },
             ],
           },
