@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [ben]
+authors: [Jawad]
 tags: [Towers RTS, Strategy game, news]
 ---
 

@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header>
 	 <div>
-      <video loop autoPlay width="100%">
+      <video loop autoPlay muted width="100%">
         <source
           src='https://deltaengine.net/videos/TowersLoop.mp4'
           type="video/mp4"
