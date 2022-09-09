@@ -115,6 +115,14 @@ const config = {
                 label: 'Privacy Policy',
                 href: 'https://towersgame.net/PrivacyPolicy',
               },
+              {
+                label: 'Imprint',
+                href: 'https://deltaengine.net/about/imprint',
+              },
+              {
+                label: 'Support',
+                href: 'mailto:support@towersgame.net',
+              },
             ],
           },
         ],
