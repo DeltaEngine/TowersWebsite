@@ -52,6 +52,20 @@ const config = {
       }),
     ],
   ],
+  
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -65,7 +79,7 @@ const config = {
         items: [
               {to: '/blog', label: 'News', position: 'left'},
           {
-            href: 'https://store.steampowered.com/app/1673670/TowersRTS/',
+            to: 'https://store.steampowered.com/app/1673670/TowersRTS/',
             label: 'Steam',
             position: 'right',
           },
@@ -75,11 +89,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Our News',
             items: [
               {
                 label: 'News',
-                to: '/docs/intro',
+                to: '/blog',
               },
             ],
           },
@@ -88,15 +102,15 @@ const config = {
             items: [
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/Towersrts-102022492160942',
+                to: 'https://www.facebook.com/Towersrts-102022492160942',
               },
               {
                 label: 'Twitch',
-                href: 'https://www.twitch.tv/towersdev',
+                to: 'https://www.twitch.tv/towersdev',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/RtsTowers',
+                to: 'https://twitter.com/RtsTowers',
               },
             ],
           },
@@ -104,16 +118,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'Steam',
-                href: 'https://store.steampowered.com/app/1673670/TowersRTS/',
+                to: 'https://store.steampowered.com/app/1673670/TowersRTS/',
               },
 			  {
                 label: 'Privacy Policy',
-                href: 'https://towersgame.net/privacypolicy',
+                to: 'https://towersgame.net/PrivacyPolicy',
+              },
+              {
+                label: 'Imprint',
+                to: 'https://deltaengine.net/about/imprint',
+              },
+              {
+                label: 'Support',
+                to: 'mailto:support@towersgame.net',
               },
             ],
           },
