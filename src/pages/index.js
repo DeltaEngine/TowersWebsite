@@ -50,8 +50,8 @@ export default function Home() {
       alternate: false,
     },
     bottomLead: {
-      actionText: 'Download the app now.',
-      description: 'Available on your favourite store. Start your premium experience now.',
+      actionText: 'Download the game now.',
+      description: 'Available in your favorite store. Start your premium fun now.',
       mainActionText: 'Playstore',
       extraActionText: 'App Store',
     },
