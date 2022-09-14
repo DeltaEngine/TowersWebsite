@@ -6,7 +6,7 @@ import Tonsoffun from '@site/static/img/Image1.jpg';
 const FeatureList = [
   {
     title: 'What is Towers?',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/Image1').default,
     description: (
       <>
       Towers is a free Real Time Strategy (RTS) game where you conquer and upgrade towers to dominate the battlefield.
