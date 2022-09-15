@@ -28,7 +28,7 @@ Deals 30 Damage and knocks back the Units.
 Protective Dome:
 Shields the Hero and the Units for 15 seconds and give them 50 more defense.
 
-![Docusaurus Plushie](/static/img/TorinUltSkill.jpg)
+![Docusaurus Plushie](@site/static/img/TorinUltSkill.jpg)
 
 Ion:
 
@@ -45,4 +45,4 @@ Deals 300 damage to a aoe field of choice
 Electronic Impact:
 Deals 40 Damage but stuns all Units around him.
 
-![Docusaurus Plushie](/static/img/IonUlt.jpg)
+![Docusaurus Plushie](@site/static/img/IonUlt.jpg)
