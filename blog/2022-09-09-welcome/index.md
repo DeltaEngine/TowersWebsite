@@ -9,5 +9,4 @@ tags: [Towers RTS, Strategy game, news]
 
 Towers is a free Real Time Strategy (RTS) game where you conquer and upgrade towers to dominate the battlefield.
 
-<<<<<<< HEAD
 ![Docusaurus Plushie](./DemoIsland.jpg)

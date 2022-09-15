@@ -1,7 +1,6 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Step from '@site/src/components/step';
 import Footer from '@site/src/components/footer';
 import features from '@site/static/img/features.jpg';
