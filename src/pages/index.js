@@ -65,13 +65,8 @@ export default function Home() {
   }
   return (
     <Layout
-<<<<<<< Updated upstream
-      title={`Towers`}
-      description="Towers">
-=======
       title={``}
       description="Casual Real-time Strategy Game for all Platforms">
->>>>>>> Stashed changes
       <HomepageHeader />
 <img src='/img/TowersWelcome.jpg' />
       Welcome to Towers RTS!
