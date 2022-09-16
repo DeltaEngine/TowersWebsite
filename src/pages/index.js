@@ -87,43 +87,7 @@ TODO: please use the questrian font
      <br></br>
      <br></br>
      <br></br>
-     <div id="faq" className="pt-20 mb-20 text-3xl font-semibold text-center text-blue-800 lg:font-bold">Towers RTS Game </div>
-        <Step
-          title={data.step1.title}
-          heading={data.step1.heading}
-          description={data.step1.description}
-          img={data.step1.img}
-          alternate={data.step1.alternate}
-          />
-          <Step
-          title={data.step2.title}
-          heading={data.step2.heading}
-          description={data.step2.description}
-          img={data.step2.img}
-          alternate={data.step2.alternate}
-          />          
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-          <Step
-          title={data.step3.title}
-          heading={data.step3.heading}
-          description={data.step3.description}
-          firstpoint={data.step3.firstpoint}
-          SecondPoint={data.step3.SecondPoint}
-          ThirdPoint={data.step3.ThirdPoint}
-          ForthPoint={data.step3.ForthPoint}
-          FifithPoint={data.step3.FifithPoint}
-          SixthPoint={data.step3.SixthPoint}
-          img={data.step3.img}
-          alternate={data.step3.alternate}
-          />
+     
                <br></br>
                <br></br>
              <BottomLead 
