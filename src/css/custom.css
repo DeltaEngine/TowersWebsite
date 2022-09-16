@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 :root {
-  color: lightgray;
-  background-color: #292929;
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 180%;
+  font-weight: bold;
+  background-color: #d4bca2;
   --ifm-color-primary: #292929;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
