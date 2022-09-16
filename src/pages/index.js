@@ -9,18 +9,26 @@ import BottomLead from '@site/src/components/BottomLead';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  //h1 is hack to prevent scrolling down, first h1 is selected
   return (
     <header>
-	 <div>
-      <video loop autoPlay muted width="100%">
-        <source
-          src='https://deltaengine.net/videos/TowersLoop.mp4'
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
+  <h1 class="xlarge-font"></h1>
+  <div class="VideoBannerParallex">
+    <figure>
+      <video loop autoplay="true" muted="muted">
+        <source src="video/TowersLoop.mp4" type="video/mp4"/>
       </video>
+      <div class="IconHolder">
+      </div>
+    </figure>
+    <div class="TowerBannerLogo">
+      <img src="img/TowersLogo.png" alt="Towers" />
     </div>
+  </div>
+  <div id="FreePlaynowButton" class="FreePlaynowButton">
+    <a href="https://store.steampowered.com/app/1673670/Towers/" target="_blank" rel="noopener">
+      <img class="img" src="img/ButtonWebsitePlayNow.png" alt="Download the game"/><span>Play Now</span></a>
+  </div>
     </header>
   );
 }
@@ -57,14 +65,33 @@ export default function Home() {
   }
   return (
     <Layout
+<<<<<<< Updated upstream
       title={`Towers`}
       description="Towers">
+=======
+      title={``}
+      description="Casual Real-time Strategy Game for all Platforms">
+>>>>>>> Stashed changes
       <HomepageHeader />
+<img src='/img/TowersWelcome.jpg' />
+      Welcome to Towers RTS!
+      <br />
+      <br />
+      <div id="faq" className="pt-20" style={{marginLeft: 100}}>
+        Towers is an action Strategy game that comes free on Steam and soon free on Mobile too (Awesome!)
+<ul>
+<li>to fight epic battles you have to upgrade your buildings</li>
+<li>capture enemy buildings to increase the size of your army</li>
+<li>Make your army much more stronger by using your hero and their skills</li>
+<li>enjoy big battles in the multiplayer mode</li>
+<li>master all the different and unique level mechanics</li>
+</ul>
+TODO: please use the questrian font
+</div>
       <main>
      <br></br>
      <br></br>
      <br></br>
-     <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto "></div>
      <div id="faq" className="pt-20 mb-20 text-3xl font-semibold text-center text-blue-800 lg:font-bold">Towers RTS Game </div>
         <Step
           title={data.step1.title}
@@ -79,12 +106,14 @@ export default function Home() {
           description={data.step2.description}
           img={data.step2.img}
           alternate={data.step2.alternate}
-          />
-               <br></br>
+          />          
      <br></br>
-     <br></br>     <br></br>
      <br></br>
-     <br></br>     <br></br>
+     <br></br>
+     <br></br>
+     <br></br>
+     <br></br>
+     <br></br>
      <br></br>
      <br></br>
           <Step

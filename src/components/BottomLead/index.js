@@ -2,6 +2,35 @@ import React from "react";
 
 const BottomLead = ({actionText, description, mainActionText, extraActionText}) => {
   return (
+<div class="SocialMedia">
+  <div class="SocialMediaContent">
+    <ul>
+      <a href="https://www.facebook.com/Towersrts-102022492160942" target="_blank" rel="noopener" title="Like us!">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/RtsTowers" target="_blank" rel="noopener" title="Tweet us!">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.twitch.tv/towersdev" target="_blank" rel="noopener" title="Connect wih us!">
+        <i class="fab fa-twitch"></i>
+      </a>
+      <a href="https://www.instagram.com/towersrts/" target="_blank" rel="noopener" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCdIJ70TI1d8Ymql7q5ZIyKA" target="_blank" rel="noopener" title="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </ul>
+   </div>
+  <img src="/img/TowersArtwork.jpg" />
+</div>
+  );
+};
+
+export default BottomLead;
+
+/*old stuff
+
     <div className="flex flex-col justify-center h-screen bg-gray-800 lg:pt-24 lg:pb-14 lg:bg-cover lg:h-full lg:bg-action">
       <p className="p-5 text-5xl font-bold leading-normal text-center text-white lg:text-4xl lg:pt-10">{actionText}</p>
       <p className="pl-12 pr-12 text-xl leading-8 text-center text-gray-300 lg:text-gray-200 lg:font-medium">{description}</p>
@@ -18,7 +47,4 @@ const BottomLead = ({actionText, description, mainActionText, extraActionText}) 
         </button>
       </div>
     </div>
-  );
-};
-
-export default BottomLead;
+    */
