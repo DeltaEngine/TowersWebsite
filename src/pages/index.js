@@ -57,8 +57,8 @@ export default function Home() {
   }
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Towers RTS Games">
+      title={`Towers`}
+      description="Towers">
       <HomepageHeader />
       <main>
      <br></br>
