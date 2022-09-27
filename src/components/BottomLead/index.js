@@ -4,23 +4,25 @@ const BottomLead = ({actionText, description, mainActionText, extraActionText}) 
   return (
 <div class="SocialMedia">
   <div class="SocialMediaContent">
-    <ul>
-      <a href="https://www.facebook.com/Towersrts-102022492160942" target="_blank" rel="noopener" title="Like us!">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://twitter.com/RtsTowers" target="_blank" rel="noopener" title="Tweet us!">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://www.twitch.tv/towersdev" target="_blank" rel="noopener" title="Connect wih us!">
-        <i class="fab fa-twitch"></i>
-      </a>
-      <a href="https://www.instagram.com/towersrts/" target="_blank" rel="noopener" title="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.youtube.com/channel/UCdIJ70TI1d8Ymql7q5ZIyKA" target="_blank" rel="noopener" title="YouTube">
-        <i class="fab fa-youtube"></i>
-      </a>
-    </ul>
+    <div id="TwitterButton" class="TwitterButton" style={{marginLeft:-50, marginTop:-380}}>
+    <a href="https://twitter.com/RtsTowers" target="_blank" rel="noopener" >
+      <img class="img" src="img/TwitterLogo.png" alt="Twitter" /></a>
+      </div>
+      <br></br>
+      <div id="InstagramButton" class="InstagramButton" style={{marginLeft:-50, marginTop:0}}>
+    <a href="https://www.instagram.com/towersrts/" target="_blank" rel="noopener" >
+      <img class="img" src="img/InstagramLogo.png" alt="Instagram" /></a>
+      </div>
+      <br></br>
+      <div id="YoutubeButton" class="YoutubeButton" style={{marginLeft:-50, marginTop:0}}>
+    <a href="https://www.youtube.com/channel/UCdIJ70TI1d8Ymql7q5ZIyKA" target="_blank" rel="noopener" >
+      <img class="img" src="img/YoutubeLogo.png" alt="Youtube"/></a>
+      </div>
+      <br></br>
+      <div id="TiktokButton" class="TiktokButton" style={{marginLeft:-50, marginTop:0}}>
+    <a href="https://www.tiktok.com/@towersrts" target="_blank" rel="noopener" >
+      <img class="img" src="img/TiktokLogo.png" alt="Tiktok"/></a>
+      </div>
    </div>
   <img src="/img/TowersArtwork.jpg" />
 </div>

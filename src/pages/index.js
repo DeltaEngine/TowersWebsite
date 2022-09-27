@@ -66,23 +66,24 @@ export default function Home() {
   return (
     <Layout
       title={``}
-      description="Casual Real-time Strategy Game for all Platforms">
+      description="Action strategy game">
       <HomepageHeader />
-<img src='/img/TowersWelcome.jpg' />
-      Welcome to Towers RTS!
-      <br />
-      <br />
-      <div id="faq" className="pt-20" style={{marginLeft: 100}}>
-        Towers is an action Strategy game that comes free on Steam and soon free on Mobile too (Awesome!)
-<ul>
-<li>to fight epic battles you have to upgrade your buildings</li>
-<li>capture enemy buildings to increase the size of your army</li>
-<li>Make your army much more stronger by using your hero and their skills</li>
-<li>enjoy big battles in the multiplayer mode</li>
-<li>master all the different and unique level mechanics</li>
-</ul>
-TODO: please use the questrian font
+      <div>
+      <div id = "image">
+<img src='/img/TowersWelcome.jpg' style={{marginTop: 70}} />
 </div>
+      <div id="faq" className="pt-20" style={{marginLeft: 630, marginTop: -470, marginBottom:-100}}>
+<ul>
+  <li>- Towers is an action Strategy game that comes free on Steam and soon on Mobile too (Awesome!)</li>
+  <li>- To fight epic battles you have to upgrade your buildings</li>
+  <li>- Capture enemy buildings to increase the size of your army</li>
+  <li>- Make your army much stronger by using your hero and their skills</li>
+  <li>- Enjoy big battles in the multiplayer mode</li>
+  <li>- Master all the different and unique level mechanics</li>
+</ul>
+</div>
+</div>
+
       <main>
      <br></br>
      <br></br>
