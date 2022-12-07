@@ -82,6 +82,17 @@ export default function Home() {
   <li>- Master all the different and unique level mechanics</li>
 </ul>
 </div>
+<img src='/img/TowersWelcome.jpg' style={{marginTop: 70}} />
+<div id="faq" className="pt-20" style={{marginLeft: 630, marginTop: -470, marginBottom:-100}}>
+<ul>
+  <li>- Towers is an action Strategy game that comes free on Steam and soon on Mobile too (Awesome!)</li>
+  <li>- To fight epic battles you have to upgrade your buildings</li>
+  <li>- Capture enemy buildings to increase the size of your army</li>
+  <li>- Make your army much stronger by using your hero and their skills</li>
+  <li>- Enjoy big battles in the multiplayer mode</li>
+  <li>- Master all the different and unique level mechanics</li>
+</ul>
+</div>
 </div>
 
       <main>
